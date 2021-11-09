@@ -46,6 +46,7 @@ public class ValleElquiMaps extends FragmentActivity implements OnMapReadyCallba
         // Add a marker in Sydney and move the camera
         LatLng Velqui = new LatLng(-29.9017529,-71.2477986);
         mMap.addMarker(new MarkerOptions().position(Velqui).title("Valle del Elqui"));
+        mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Velqui));
     }
 }

@@ -46,6 +46,7 @@ public class ChiloeMaps extends FragmentActivity implements OnMapReadyCallback {
         // Add a marker in Sydney and move the camera
         LatLng Chiloe = new LatLng(-42.6466559,-73.9914818);
         mMap.addMarker(new MarkerOptions().position(Chiloe).title("Chiloé"));
+        mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Chiloe));
     }
 }

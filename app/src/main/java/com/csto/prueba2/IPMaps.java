@@ -46,6 +46,7 @@ public class IPMaps extends FragmentActivity implements OnMapReadyCallback {
         // Add a marker in Sydney and move the camera
         LatLng IP = new LatLng(-27.1246882,-109.3784783);
         mMap.addMarker(new MarkerOptions().position(IP).title("Isla de Pascua"));
+        mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(IP));
     }
 }
