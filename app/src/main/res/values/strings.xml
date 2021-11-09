@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prueba2</string>
+    <string-array name="Lugares">
+        <item>Valle del Elqui</item>
+        <item>Isla de pascua</item>
+        <item>Isla grande de Chiloé</item>
+    </string-array>
+    <string name="title_activity_chiloe_maps">ChiloeMaps</string>
+    <string name="title_activity_valle_elqui_maps">ValleElquiMaps</string>
+    <string name="title_activity_ipmaps">IPMaps</string>
+</resources>
